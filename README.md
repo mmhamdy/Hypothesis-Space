@@ -1,2 +1,2 @@
-# mhamdy_distill
+# Hypothesis Space
 My distill blog
