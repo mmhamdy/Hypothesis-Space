@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Hypothesis Space"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+
+
+
