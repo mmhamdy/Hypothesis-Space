@@ -8,8 +8,11 @@ packages = [{include = "hypothesis_space"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-scikit-learn = "^1.2.0"
+scikit-learn = "^1.0.2"
 
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^3.5.2"
 
 [build-system]
 requires = ["poetry-core"]
