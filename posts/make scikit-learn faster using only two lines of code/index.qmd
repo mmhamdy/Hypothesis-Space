@@ -1,5 +1,5 @@
 ---
-title: "Make scikit-learn faster using only two lines of code"
+title: "Make Scikit-Learn faster using only two lines of code"
 author: "Mohammed Hamdy"
 date: "2022-12-19"
 categories: [scikit-learn, python]

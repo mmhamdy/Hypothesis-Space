@@ -9,7 +9,7 @@
 <meta name="author" content="Mohammed Hamdy">
 <meta name="dcterms.date" content="2022-12-19">
 
-<title>Hypothesis Space - Make scikit-learn faster using only two lines of code</title>
+<title>Hypothesis Space - Make Scikit-Learn faster using only two lines of code</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -173,7 +173,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Make scikit-learn faster using only two lines of code</h1>
+      <h1 class="title">Make Scikit-Learn faster using only two lines of code</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">scikit-learn</div>
                 <div class="quarto-category">python</div>
@@ -254,7 +254,7 @@ Note
 <pre><code>Intel(R) Extension for Scikit-learn* enabled (https://github.com/intel/scikit-learn-intelex)</code></pre>
 </div>
 <div class="cell-output cell-output-display" data-execution_count="2">
-<pre><code>'The elapsed time for the optimized model is: 24.12 s'</code></pre>
+<pre><code>'The elapsed time for the optimized model is: 24.09 s'</code></pre>
 </div>
 </div>
 <p>But what about the original algorithm?</p>
@@ -271,7 +271,7 @@ Note
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>time_diff <span class="op">=</span> timer() <span class="op">-</span> start</span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ss">f"The elapsed time for Scikit-Learn's original model is: </span><span class="sc">{</span>time_diff<span class="sc">:.2f}</span><span class="ss"> s"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="3">
-<pre><code>"The elapsed time for Scikit-Learn's original model is: 239.43 s"</code></pre>
+<pre><code>"The elapsed time for Scikit-Learn's original model is: 239.38 s"</code></pre>
 </div>
 </div>
 <p>The optimized algorithm is almost 10 times faster than the original one. For more informative comparison, check <a href="https://www.intel.com/content/www/us/en/developer/articles/technical/benchmarking-intel-extension-for-scikit-learn.html">Benchmarking Intel Extension for Scikit-learn</a> article by Intel.</p>
