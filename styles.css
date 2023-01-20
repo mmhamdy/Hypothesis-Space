@@ -1,1 +1,14 @@
 /* css styles */
+.navbar {
+  padding-top: 0;
+}
+
+.navbar-brand {
+  padding-top: 0;
+}
+
+.navbar-logo {
+  height: 100px;
+  width: 200px;
+  max-height: 150px;
+}

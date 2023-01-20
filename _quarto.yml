@@ -4,6 +4,9 @@ project:
 website:
   title: "Hypothesis Space"
   navbar:
+    title: false
+    logo: "hslogo.png"
+    
     right:
       - about.qmd
       - icon: github
