@@ -8,8 +8,9 @@
 
 <meta name="author" content="Mohammed Hamdy">
 <meta name="dcterms.date" content="2022-12-19">
+<meta name="description" content="Accelerate Scikit-Learn algorithms using Intel’s CPU optimized code and get 10x faster results.">
 
-<title>Hypothesis Space - Make Scikit-Learn faster using only two lines of code</title>
+<title>Hypothesis Space - Faster Scikit-Learn using only two lines of code</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -173,24 +174,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Make Scikit-Learn faster using only two lines of code</h1>
-                                <div class="quarto-categories">
+      <h1 class="title">Faster Scikit-Learn using only two lines of code</h1>
+                  <div>
+        <div class="description">
+          <p>Accelerate Scikit-Learn algorithms using Intel’s CPU optimized code and get 10x faster results.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">scikit-learn</div>
                 <div class="quarto-category">python</div>
               </div>
                   </div>
   </div>
     
-  
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <a href="https://hypothesis-space.netlify.app/about">Mohammed Hamdy</a> 
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://hypothesis-space.netlify.app/">
+              Hypothesis Space
+              </a>
+            </p>
+        </div>
+      </div>
+
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Mohammed Hamdy </p>
-            </div>
-    </div>
-      
+        
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
@@ -253,8 +268,8 @@ Note
 <div class="cell-output cell-output-stderr">
 <pre><code>Intel(R) Extension for Scikit-learn* enabled (https://github.com/intel/scikit-learn-intelex)</code></pre>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="2">
-<pre><code>'The elapsed time for the optimized model is: 24.09 s'</code></pre>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<pre><code>'The elapsed time for the optimized model is: 24.25 s'</code></pre>
 </div>
 </div>
 <p>But what about the original algorithm?</p>
@@ -270,8 +285,8 @@ Note
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>kmeans <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">15</span>, random_state<span class="op">=</span><span class="dv">12</span>).fit(X)</span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>time_diff <span class="op">=</span> timer() <span class="op">-</span> start</span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ss">f"The elapsed time for Scikit-Learn's original model is: </span><span class="sc">{</span>time_diff<span class="sc">:.2f}</span><span class="ss"> s"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="3">
-<pre><code>"The elapsed time for Scikit-Learn's original model is: 239.38 s"</code></pre>
+<div class="cell-output cell-output-display" data-execution_count="6">
+<pre><code>"The elapsed time for Scikit-Learn's original model is: 254.50 s"</code></pre>
 </div>
 </div>
 <p>The optimized algorithm is almost 10 times faster than the original one. For more informative comparison, check <a href="https://www.intel.com/content/www/us/en/developer/articles/technical/benchmarking-intel-extension-for-scikit-learn.html">Benchmarking Intel Extension for Scikit-learn</a> article by Intel.</p>
@@ -283,7 +298,17 @@ Note
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@misc{hamdy2022,
+  author = {Mohammed Hamdy},
+  title = {Faster {Scikit-Learn} Using Only Two Lines of Code},
+  date = {2022-12-19},
+  url = {https://hypothesis-space.netlify.app/posts/faster_sklearn},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-hamdy2022" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Mohammed Hamdy. 2022. <span>“Faster Scikit-Learn Using Only Two Lines of
+Code.”</span> <em>Hypothesis Space</em>. <a href="https://hypothesis-space.netlify.app/posts/faster_sklearn">https://hypothesis-space.netlify.app/posts/faster_sklearn</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

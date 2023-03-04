@@ -1,7 +1,17 @@
 ---
-title: "Make Scikit-Learn faster using only two lines of code"
-author: "Mohammed Hamdy"
+title: "Faster Scikit-Learn using only two lines of code"
+description: | 
+  Accelerate Scikit-Learn algorithms using Intel's CPU optimized code and get 10x faster results.
 date: "2022-12-19"
+author:
+  - name: Mohammed Hamdy 
+    url: https://hypothesis-space.netlify.app/about
+    affiliation: Hypothesis Space
+    affiliation-url: https://hypothesis-space.netlify.app/
+citation: 
+    type: article
+    container-title: "Hypothesis Space"
+    url: https://hypothesis-space.netlify.app/posts/faster_sklearn
 categories: [scikit-learn, python]
 ---
 
