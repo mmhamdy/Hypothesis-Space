@@ -13,6 +13,12 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+        
+  comments:
+    giscus:
+      repo: mmhamdy/Hypothesis-Space
+      loading: lazy
+       
 format:
   html:
     theme:
