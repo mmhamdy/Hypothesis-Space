@@ -13,6 +13,7 @@ citation:
     container-title: "Hypothesis Space"
     url: https://hypothesis-space.netlify.app/posts/faster_sklearn
 categories: [scikit-learn, python]
+image: fastsklearn.png
 ---
 
 Yes! and no GPU involved. Intel has made an extension that can accelerate your scikit-learn code without any change to scikit-learn's api. This means that you can apply it to an already existing code without changing anything and still get an enhanced performance.
