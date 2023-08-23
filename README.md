@@ -5,6 +5,6 @@
 
 </div>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e829c161-4082-4681-92d8-675cfeb72eee/deploy-status)](https://app.netlify.com/sites/hypothesis-space/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7985987e-36c4-4424-8112-785d194893ef/deploy-status)](https://app.netlify.com/sites/hypothesis-space/deploys)
 
 My attempt at blogging.
