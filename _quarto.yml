@@ -13,9 +13,9 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/mmhamdy
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/mhamdy_res
         
   comments:
     giscus:
@@ -28,8 +28,7 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-execute:
-  freeze: auto
+
 
 
 
